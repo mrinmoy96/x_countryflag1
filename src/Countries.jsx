@@ -16,7 +16,7 @@ useEffect(()=>{
 	fetch(API_ENDPOINT)
 	.then(res=>res.json())
 	.then(data=>setFlags(data))
-	.catch((error)=>console.error("Error fetching data :", error))
+	.catch((error)=>console.error("Error fetching data:", error))
 },[]);
 
 
